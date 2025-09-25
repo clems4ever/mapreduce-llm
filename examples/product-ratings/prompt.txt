@@ -1,0 +1,2 @@
+Please select the lines with reviews that are about objects from the kitchen.
+Retrurn the lines that you want to keep.
