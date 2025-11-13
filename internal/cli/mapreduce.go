@@ -88,6 +88,8 @@ func ProcessWithClient(ctx context.Context, client myopenai.ChatGenerator, model
 
 	fmt.Printf("Starting parallel processing of %d chunks...\n", len(chunks))
 
+	prompt = prompt + "\nReturn the lines that you want to keep."
+
 	g, gCtx := errgroup.WithContext(ctx)
 
 	// Process each chunk with OpenAI
