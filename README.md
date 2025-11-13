@@ -1,5 +1,7 @@
 # MapReduce LLM
 
+[![CI](https://github.com/clems4ever/mapreduce-llm/actions/workflows/ci.yml/badge.svg)](https://github.com/clems4ever/mapreduce-llm/actions/workflows/ci.yml)
+
 A command-line tool that performs MapReduce-style processing on large text files using OpenAI's language models. Split large datasets into manageable chunks, process them in parallel with LLM prompts, and combine the results.
 
 ## Overview
@@ -14,12 +16,12 @@ Perfect for filtering, transforming, or analyzing large datasets with natural la
 
 ## Features
 
-- 🚀 **Parallel Processing**: Processes chunks concurrently for faster results
-- 💾 **Caching**: Automatically caches intermediate results to resume interrupted jobs
-- 📊 **Progress Tracking**: Real-time progress updates during processing
-- 🔍 **Token Estimation**: Pre-flight token counting before processing begins
-- ✅ **Confirmation Prompts**: Interactive confirmation before running costly operations
-- 🎯 **Multiple Models**: Support for GPT-5-nano, GPT-5-mini, GPT-5, and GPT-5.1
+- **Parallel Processing**: Processes chunks concurrently for faster results
+- **Caching**: Automatically caches intermediate results to resume interrupted jobs
+- **Progress Tracking**: Real-time progress updates during processing
+- **Token Estimation**: Pre-flight token counting before processing begins
+- **Confirmation Prompts**: Interactive confirmation before running costly operations
+- **Multiple Models**: Support for GPT-5-nano, GPT-5-mini, GPT-5, and GPT-5.1
 
 ## Installation
 
